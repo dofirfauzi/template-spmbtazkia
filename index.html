@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!-- owl carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <!-- my style -->
     <link rel="stylesheet" href="css/mainstyle.css">
     <title>SPMB Institut Tazkia</title>
@@ -27,18 +29,18 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo-header.svg" alt=""></a>
+            <a class="navbar-brand" href="https://spmb.tazkia.ac.id/"><img src="img/logo-header.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-align-right"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto my-3">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">Fakultas</a>
-                    <a class="nav-link" href="#">Jalur Test</a>
-                    <a class="nav-link" href="#">Login</a>
-                    <a class=" btn btn-blue" href="#">Buat Akun</a>
+                    <a class="nav-link" href="https://spmb.tazkia.ac.id/">Home</a>
+                    <a class="nav-link" href="#faculty">Fakultas</a>
+                    <a class="nav-link" href="#jalurTest">Jalur Test</a>
+                    <a class="nav-link" href="https://spmb.tazkia.ac.id/login">Login</a>
+                    <a class=" btn btn-blue" href="https://spmb.tazkia.ac.id/leads/form">Buat Akun</a>
                 </div>
             </div>
         </div>
@@ -88,23 +90,220 @@
         <div class="container">
             <div class="program">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="/img/psh.svg" alt="program sarjana haffidz" class="float-left">
-                        <h5>Program <br>Sarjana Haffizh</h5>
+                        <p>Program <br>Sarjana Haffizh</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="/img/pi.svg" alt="program internasional" class="float-left">
-                        <h5>Program <br>Kelas Internasional</h5>
+                        <p>Program <br>Kelas Internasional</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="/img/pr.svg" alt="program reguler" class="float-left">
-                        <h5>Program <br>Reguler</h5>
+                        <p>Program <br>Reguler</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- end program section -->
+    <!-- faculty section -->
+    <section class="faculty" id="faculty">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/i-febi.svg" alt="">
+                    <h6>Fakultas <br>Ekonomi dan Bisnis Islam</h6>
+                    <p>Menawarkan tiga program studi pilihan yang dapat dipilih.</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsFebi"><i
+                            class="fas fa-arrow-right mr-2"></i>Info Selengkapnya...</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/i-fh.svg" alt="">
+                    <h6>Fakultas <br>Hukum Islam</h6>
+                    <p>Menawarkan satu program studi pilihan yang dapat dipilih.</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsFHI"><i
+                            class="fas fa-arrow-right mr-2"></i>Info Selengkapnya...</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/i-ft.svg" alt="">
+                    <h6>Fakultas <br>Tarbiyah</h6>
+                    <p>Menawarkan satu program studi pilihan yang dapat dipilih.</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsFT"><i
+                            class="fas fa-arrow-right mr-2"></i>Info Selengkapnya...</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/i-sp.svg" alt="">
+                    <h6>Sekolah <br>Pascasarjana</h6>
+                    <p>Menawarkan dua program studi pilihan yang dapat dipilih.</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsPs"><i
+                            class="fas fa-arrow-right mr-2"></i>Info Selengkapnya...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modals febi -->
+    <div class="modal fade" id="modalsFebi" tabindex="-1" aria-labelledby="modalsFebi" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header febi">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>Fakultas<br>Ekonomi dan Bisnis Islam</h4>
+                    <div class="divider mb-3"></div>
+                    <h6>Program Studi</h6>
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                            <p>Manajemen Bisnis Syariah</p>
+                            <small>Terakreditasi B</small>
+                        </li>
+                        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                            <p>Akuntansi Syariah</p>
+                            <small>Terakreditasi A</small>
+                        </li>
+                        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                            <p>Ekonomi Syariah</p>
+                            <small>Terakreditasi A</small>
+                        </li>
+                    </ul>
+                    <a href="https://spmb.tazkia.ac.id/leads/form" class="btn btn-blue d-block mt-4">DAFTAR SEKARANG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modals febi -->
+    <!-- modals fhi -->
+    <div class="modal fade" id="modalsFHI" tabindex="-1" aria-labelledby="modalsFebi" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header fhi">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>Fakultas<br>Hukum Islam</h4>
+                    <div class="divider mb-3"></div>
+                    <h6>Program Studi</h6>
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                            <p>Hukum Ekonomi Syariah</p>
+                            <small>Terakreditasi B</small>
+                        </li>
+                    </ul>
+                    <a href="https://spmb.tazkia.ac.id/leads/form" class="btn btn-blue d-block mt-5">DAFTAR SEKARANG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modals fhi -->
+    <!-- modals ft -->
+    <div class="modal fade" id="modalsFT" tabindex="-1" aria-labelledby="modalsFebi" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header ft">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>Fakultas Tarbiyah</h4>
+                    <div class="divider mb-3"></div>
+                    <h6>Program Studi</h6>
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                            <p>Pendidikan Ekonomi Syariah</p>
+                            <small>Dalam Proses Akreditasi</small>
+                        </li>
+                    </ul>
+                    <a href="https://spmb.tazkia.ac.id/leads/form" class="btn btn-blue d-block mt-5">DAFTAR SEKARANG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modals ft -->
+    <!-- modals Ps -->
+    <div class="modal fade" id="modalsPs" tabindex="-1" aria-labelledby="modalsFebi" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header ps">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>Sekolah Pascasarjana</h4>
+                    <div class="divider mb-3"></div>
+                    <h6>Program Studi</h6>
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                            <p>Magister Ekonomi Syariah</p>
+                            <small>Terakreditasi B</small>
+                        </li>
+                        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+                            <p>Magister Akuntansi Syariah</p>
+                            <small>Dalam Proses Akreditasi</small>
+                        </li>
+                    </ul>
+                    <a href="https://spmb.tazkia.ac.id/leads/form" class="btn btn-blue d-block mt-5">DAFTAR SEKARANG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modals Ps -->
+    <!-- end faculty section -->
+    <!-- test section -->
+    <section class="jalur-test" id="jalurTest">
+        <div class="container">
+            <h5>Jalur Test Masuk<br>Institut Agama Islam Tazkia</h5>
+            <div class="divider mb-5 mt-2"></div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/tpa.svg" alt="test potensi akademik">
+                    <h6>Test Potensi Akademik</h6>
+                    <p>Jalur masuk dengan test tulis 100 soal, yang terdiri dari Agama Matematika dan Bahsa Inggirs</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsFebi"><i
+                            class="fas fa-arrow-right mr-2"></i>Lihat Alur Pendaftaran</a><br>
+                    <a href="https://spmb.tazkia.ac.id/leads/form"><i class="fas fa-arrow-right mr-2"></i>Daftar
+                        Sekarang</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/jpa.svg" alt="jalur prestasi akademik">
+                    <h6>Jalur Prestasi Akademik</h6>
+                    <p>Jalur masuk dengan raport kelas x dan kelas xi, dengan minimal rata nila 7,5</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsFebi"><i
+                            class="fas fa-arrow-right mr-2"></i>Lihat Alur Pendaftaran</a><br>
+                    <a href="https://spmb.tazkia.ac.id/leads/form"><i class="fas fa-arrow-right mr-2"></i>Daftar
+                        Sekarang</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/smart-test.svg" alt="jalur smart test">
+                    <h6>Jalur Smart Test</h6>
+                    <p>Jalur masuk dengan test tulis yang diadakan di sekolah yang telah kerjasama dengan Tazkia</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsFebi"><i
+                            class="fas fa-arrow-right mr-2"></i>Lihat Alur Pendaftaran</a><br>
+                    <a href="https://spmb.tazkia.ac.id/smartTest/listIndex"><i class="fas fa-arrow-right mr-2"></i>Lihat
+                        Hasil
+                        Test</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="img/jalur-beasiswa.svg" alt="jalur beasiswa">
+                    <h6>jalur Beasiswa</h6>
+                    <p>Jalur masuk melalui seleksi beasiswa, Baik beasiswa yayasan atau beasiswa utusan daerah.</p>
+                    <a href="" type="button" data-toggle="modal" data-target="#modalsFebi"><i
+                            class="fas fa-arrow-right mr-2"></i>Lihat Alur Pendaftaran</a><br>
+                    <a href="https://beasiswa.tazkia.ac.id/"><i class="fas fa-arrow-right mr-2"></i>Info
+                        Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end test section -->
+
+
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
