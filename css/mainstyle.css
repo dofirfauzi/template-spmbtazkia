@@ -35,6 +35,37 @@ body {
 
 }
 
+/* modals */
+.modal-content {
+    background-color: #FFF9F2;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal .header {
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+    background-size: cover;
+}
+
+.modal .header .close {
+    position: relative;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.modal .header .close i {
+    color: white;
+    border: none;
+}
+
+.modal-body {
+    margin: 10px 30px 20px 30px;
+}
+
 /* end utilities */
 
 /* navbar */
@@ -143,73 +174,47 @@ body {
     color: #F47920;
 }
 
-/* modals */
-.modal-content {
-    background-color: #FFF9F2;
-    border-radius: 10px;
-    border: none;
-}
-
-.modal .header {
-    text-align: center;
-    color: white;
-    border: none;
-    border-radius: 10px 10px 0px 0px;
-    padding: 0px;
-    height: 270px;
-    background-size: cover;
-}
+/* modals faculty*/
 
 .modal .febi {
     background-image: url("/img/febi-illustrasi.svg");
+    height: 270px;
 }
 
 .modal .fhi {
     background-image: url("/img/fh-illustrasi.svg");
+    height: 270px;
 }
 
 .modal .ft {
     background-image: url("/img/ft-illustrasi.svg");
+    height: 270px;
 }
 
 .modal .ps {
     background-image: url("/img/sp-illustrasi.svg");
+    height: 270px;
 }
 
-.modal .header .close {
-    position: relative;
-    margin-right: -10px;
-    margin-top: -10px;
-}
-
-.modal .header .close i {
-    color: white;
-    border: none;
-}
-
-.modal-body {
-    margin: 10px 30px 20px 30px;
-}
-
-.modal-body ul {
+.modal-body-faculty ul {
     margin-top: 20px;
 }
 
-.modal-body ul span {
+.modal-body-faculty ul span {
     color: #F47920;
     font-size: 25px;
     margin-right: 30px;
 }
 
-.modal-body ul li {
+.modal-body-faculty ul li {
     margin-bottom: 10px;
 }
 
-.modal-body ul li p {
+.modal-body-faculty ul li p {
     margin-bottom: -1px;
 }
 
-/* end modal */
+/* end modal faculty */
 /* end faculty section */
 /* test section */
 .jalur-test {
@@ -230,7 +235,7 @@ body {
     text-decoration: none;
     color: #13263D;
     display: block;
-    margin-bottom: -15px;
+    line-height: 5px;
 }
 
 .jalur-test a:hover {
@@ -241,7 +246,82 @@ body {
     color: #F47920;
 }
 
+/* modal jalur test */
+.modal-body-test img {
+    height: 350px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #F47920;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: '';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #F47920;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.timeline a {
+    color: #023E88;
+    text-decoration: none;
+}
+
+.timeline a:hover {
+    color: #F47920;
+}
+
+/* end modal jalur test */
 /* end test section */
+/* download brosur section */
+.download-brosur {
+    margin-top: 150px;
+}
+
+.download-brosur img {
+    margin-bottom: 30px;
+}
+
+.download-brosur a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+
+.download-brosur a:hover {
+    color: #F47920;
+}
+
+.download-brosur i {
+    color: #F47920;
+    width: 30px;
+}
+
+/* end download brosur section */
 
 /* mobile version style */
 @media (max-width: 767.98px) {
