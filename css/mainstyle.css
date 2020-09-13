@@ -94,18 +94,12 @@ body {
 /* end navbar */
 
 /* slider */
-
-.slider {
-    height: 600px;
-    width: 100%;
-}
-
 .slider .heading {
     margin-top: 125px;
     margin-bottom: 70px;
 }
 
-.slider img {
+.main-slider img {
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -116,11 +110,15 @@ body {
 .slider-1 {
     background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
     color: white;
+    height: 600px;
+    width: 100%;
 }
 
 .slider-2 {
     background: linear-gradient(106.64deg, #F47920 33.71%, #FFA667 100%);
     color: white;
+    height: 600px;
+    width: 100%;
 }
 
 /* end slider */
@@ -322,14 +320,23 @@ ul.timeline>li:before {
 }
 
 /* end download brosur section */
+/* info akreditasi section */
+.info-akreditasi {
+    margin-top: 85px;
+    background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
+    padding: 60px 0px 60px 0px;
+    color: white;
+}
+
+/* end info akreditasi section */
 
 /* mobile version style */
 @media (max-width: 767.98px) {
-    .slider {
+    .main-slider {
         text-align: center;
     }
 
-    .slider img {
+    .main-slider img {
         visibility: hidden;
     }
 

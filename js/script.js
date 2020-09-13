@@ -7,3 +7,12 @@ $('.main-slider').owlCarousel({
     autoplayHoverPause: true,
     items: 1,
 })
+
+$('.info-akreditasi').owlCarousel({
+    loop: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    items: 1,
+})
