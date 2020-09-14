@@ -175,22 +175,22 @@ body {
 /* modals faculty*/
 
 .modal .febi {
-    background-image: url("/img/febi-illustrasi.svg");
+    background-image: url("../img/febi-illustrasi.svg");
     height: 270px;
 }
 
 .modal .fhi {
-    background-image: url("/img/fh-illustrasi.svg");
+    background-image: url("../img/fh-illustrasi.svg");
     height: 270px;
 }
 
 .modal .ft {
-    background-image: url("/img/ft-illustrasi.svg");
+    background-image: url("../img/ft-illustrasi.svg");
     height: 270px;
 }
 
 .modal .ps {
-    background-image: url("/img/sp-illustrasi.svg");
+    background-image: url("../img/sp-illustrasi.svg");
     height: 270px;
 }
 
@@ -329,7 +329,34 @@ ul.timeline>li:before {
 }
 
 /* end info akreditasi section */
+/* video section */
+.video-section {
+    margin-top: 150px;
+}
 
+.video-frame {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    margin: 20px 0px 20px 0px;
+}
+
+/* end video section */
+/* partners section */
+.partners {
+    margin-top: 100px;
+}
+
+.partners .item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+/* end partners section */
 /* mobile version style */
 @media (max-width: 767.98px) {
     .main-slider {
