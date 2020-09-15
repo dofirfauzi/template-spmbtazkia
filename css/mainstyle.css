@@ -357,6 +357,100 @@ ul.timeline>li:before {
 }
 
 /* end partners section */
+/* email subscribetion section */
+.email-subscribe {
+    margin-top: 150px;
+    padding: 100px 0px 100px 0px;
+    background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
+    color: white;
+}
+
+.email-subscribe form input {
+    height: 50px;
+}
+
+.email-subscribe button {
+    background-color: #F47920;
+    color: white;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.email-subscribe button:hover {
+    background-color: white;
+    color: #F47920;
+}
+
+.email-subscribe p {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+/* end email subscribetion section */
+/* footer section */
+footer {
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+footer .logo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer .logo img {
+    width: 220px;
+}
+
+footer .sosial-icon {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+
+footer .sosial-icon a {
+    color: #F47920;
+    font-size: 35px;
+}
+
+footer .address a {
+    text-decoration: none;
+    color: #212529;
+}
+
+footer .address a:hover {
+    color: #F47920;
+}
+
+footer .contact-info a {
+    display: block;
+    text-decoration: none;
+    line-height: 37px;
+    color: #212529;
+}
+
+footer .contact-info a:hover {
+    color: #F47920;
+}
+
+footer .contact-info i {
+    width: 25px;
+    color: #F47920;
+    font-size: 18px;
+}
+
+.sub-footer a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.sub-footer a:hover {
+    color: #F47920;
+}
+
+/* end footer section */
 /* mobile version style */
 @media (max-width: 767.98px) {
     .main-slider {
@@ -375,6 +469,10 @@ ul.timeline>li:before {
         text-align: center;
     }
 
+    .email-subscribe p {
+        font-size: 25px;
+    }
+
 }
 
 /* tablet version style */
@@ -385,5 +483,10 @@ ul.timeline>li:before {
 
     .jalur-test img {
         margin-top: 40px;
+    }
+
+    .address {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
