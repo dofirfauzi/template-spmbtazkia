@@ -1,9 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: roboto;
     background: #FFF9F2;
 }
 
 /* utilities */
+.anchor {
+    display: block;
+    height: 40px;
+    margin-top: -40px;
+    visibility: hidden;
+}
+
 /* button */
 .btn-blue {
     color: #FFF9F2;
@@ -471,6 +482,10 @@ footer .contact-info i {
 
     .email-subscribe p {
         font-size: 25px;
+    }
+
+    .partners .item {
+        border-radius: 5px;
     }
 
 }
