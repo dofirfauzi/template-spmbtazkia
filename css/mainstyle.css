@@ -462,6 +462,65 @@ footer .contact-info i {
 }
 
 /* end footer section */
+/* form buat akun & login */
+.buat-akun {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.brand h2 {
+    font-weight: 300;
+    color: #13263D;
+}
+
+.brand h2 strong {
+    font-weight: 700;
+}
+
+.buat-akun .sosial-icon p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.buat-akun .sosial-icon a {
+    color: #F47920;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.buat-akun .sosial-icon a:hover {
+    color: #023E88;
+}
+
+.form-area {
+    background-color: white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.form-area .btn-submit {
+    background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
+    color: white;
+    height: 42px;
+
+}
+
+.form-area .btn-submit:hover {
+    background: #F47920;
+}
+
+.form-area .btn-google {
+    background: white;
+    height: 42px;
+    border: 1px solid #dddddd;
+}
+
+.form-area .btn-google:hover {
+    background: #FFF9F2;
+}
+
+/* end form buat akun & login */
 /* mobile version style */
 @media (max-width: 767.98px) {
     .main-slider {
@@ -486,6 +545,19 @@ footer .contact-info i {
 
     .partners .item {
         border-radius: 5px;
+    }
+
+    .buat-akun {
+        margin-top: -150px;
+    }
+
+    .buat-akun .brand {
+        display: none;
+    }
+
+    .header {
+        height: 300px;
+        background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
     }
 
 }
