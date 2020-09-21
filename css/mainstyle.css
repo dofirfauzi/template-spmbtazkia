@@ -37,6 +37,31 @@ body {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
+.tombol-aksi {
+    background: #023E88;
+    font-weight: normal;
+    color: white;
+    padding: 8px 15px;
+    margin: 2px 2px 2px 2px;
+}
+
+.tombol-aksi:hover {
+    background-color: #F47920;
+    color: white;
+}
+
+.tombol-aksi-merah {
+    background-color: #b90000;
+    font-weight: normal;
+    color: white;
+    padding: 6px;
+    margin: 2px 2px 2px 2px;
+}
+
+.tombol-aksi-merah:hover {
+    color: white;
+}
+
 /* divider */
 .divider {
     width: 70px;
@@ -75,6 +100,40 @@ body {
 
 .modal-body {
     margin: 10px 30px 20px 30px;
+}
+
+/* data table */
+.data-table {
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 10px;
+    min-height: 200px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.10);
+}
+
+.data-table thead {
+    background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.data-table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.data-table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.data-table thead th {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.data-table td {
+    vertical-align: middle;
 }
 
 /* end utilities */
@@ -426,6 +485,10 @@ footer .sosial-icon a {
     font-size: 35px;
 }
 
+footer .sosial-icon a:hover {
+    color: #023E88;
+}
+
 footer .address a {
     text-decoration: none;
     color: #212529;
@@ -466,6 +529,7 @@ footer .contact-info i {
 .buat-akun {
     margin-top: 100px;
     margin-bottom: 100px;
+
 }
 
 .brand h2 {
@@ -521,6 +585,63 @@ footer .contact-info i {
 }
 
 /* end form buat akun & login */
+/* jumbotron */
+.jumbotron {
+    background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
+    color: white;
+    min-height: 590px;
+}
+
+/* end jumbotron */
+/* smartTest */
+.header-smartTest form {
+    margin-top: 48px;
+}
+
+.header-smartTest form input {
+    height: 50px;
+    border-radius: 8px;
+}
+
+.header-smartTest form .input-group-text {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.header-smartTest button {
+    background-color: #F47920;
+    color: white;
+    height: 50px;
+    padding: 0px 40px 0px 40px;
+    border-radius: 8px;
+}
+
+.header-smartTest button:hover {
+    background-color: white;
+    color: #F47920;
+}
+
+.hasil-samrttest {
+    margin-top: -200px;
+}
+
+/* end smartTest */
+/* form daftar smart test */
+.form-smartTest {
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px;
+    margin-top: -300px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.10);
+}
+
+/* end form daftar smart test */
+/* halaman pesan buat akun berhasil */
+.pesan-berhasil {
+    margin-top: 100px;
+}
+
+/* end halaman pesan buat akun berhasil */
 /* mobile version style */
 @media (max-width: 767.98px) {
     .main-slider {
