@@ -647,6 +647,7 @@ footer .contact-info i {
 
     .faculty {
         text-align: center;
+        margin-top: 80px;
     }
 
     .email-subscribe p {
@@ -662,7 +663,7 @@ footer .contact-info i {
     }
 
     .buat-akun {
-        margin-top: -150px;
+        margin-top: -170px;
     }
 
     .buat-akun .brand {
@@ -670,12 +671,17 @@ footer .contact-info i {
     }
 
     .header-devider {
-        height: 300px;
+        height: 250px;
         background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
     }
 
     .header-smartTest button {
         padding: 0px 20px 0px 20px;
+    }
+
+    .form-smartTest {
+        padding: 30px;
+        margin-top: -230px;
     }
 
     .hasil-samrttest {
