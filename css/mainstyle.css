@@ -84,7 +84,12 @@ body {
     border: none;
     border-radius: 10px 10px 0px 0px;
     padding: 0px;
-    background-size: cover;
+}
+
+.modal .header img {
+    width: 100%;
+    margin-top: -15px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .modal .header .close {
@@ -243,26 +248,6 @@ body {
 }
 
 /* modals faculty*/
-
-.modal .febi {
-    background-image: url("../img/febi-illustrasi.svg");
-    height: 270px;
-}
-
-.modal .fhi {
-    background-image: url("../img/fh-illustrasi.svg");
-    height: 270px;
-}
-
-.modal .ft {
-    background-image: url("../img/ft-illustrasi.svg");
-    height: 270px;
-}
-
-.modal .ps {
-    background-image: url("../img/sp-illustrasi.svg");
-    height: 270px;
-}
 
 .modal-body-faculty ul {
     margin-top: 20px;
@@ -652,6 +637,10 @@ footer .contact-info i {
         visibility: hidden;
     }
 
+    .modal-body {
+        margin: 10px 20px 20px 20px;
+    }
+
     .program {
         margin-top: -150px;
     }
@@ -668,6 +657,10 @@ footer .contact-info i {
         border-radius: 5px;
     }
 
+    .form-area {
+        padding: 20px;
+    }
+
     .buat-akun {
         margin-top: -150px;
     }
@@ -676,9 +669,17 @@ footer .contact-info i {
         display: none;
     }
 
-    .header {
+    .header-devider {
         height: 300px;
         background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
+    }
+
+    .header-smartTest button {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .hasil-samrttest {
+        margin-top: -100px;
     }
 
 }
@@ -696,5 +697,9 @@ footer .contact-info i {
     .address {
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+
+    .form-area {
+        padding: 25px;
     }
 }

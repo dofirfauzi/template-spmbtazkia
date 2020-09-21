@@ -13,7 +13,7 @@ $('.info-akreditasi').owlCarousel({
     dots: false,
     autoplay: true,
     autoplayTimeout: 4000,
-    autoplayHoverPause: false,
+    autoplayHoverPause: true,
     items: 1,
 })
 
