@@ -166,6 +166,16 @@ body {
     font-weight: 400;
 }
 
+.navbar .profil {
+    margin-top: 5px;
+}
+
+.navbar .profil img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
 /* end navbar */
 
 /* slider */
