@@ -637,6 +637,69 @@ footer .contact-info i {
 }
 
 /* end halaman pesan buat akun berhasil */
+/* lendingpage MBS */
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.konsentrasi {
+    background-color: #13263D;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+}
+
+.konsentrasi a {
+    text-decoration: none;
+    color: #FFA667;
+}
+
+.konsentrasi a:hover {
+    color: #ffffff;
+}
+
+.proker {
+    margin-top: 100px;
+}
+
+.matkul {
+    background-color: white;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.matkul li {
+    border: none;
+}
+
+/* end lendingpage MBS */
+/* btn scroll to top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background: white;
+    color: #F47920;
+}
+
+/* end btn scroll to top */
+
 /* mobile version style */
 @media (max-width: 767.98px) {
     .main-slider {
@@ -696,6 +759,10 @@ footer .contact-info i {
 
     .hasil-samrttest {
         margin-top: -100px;
+    }
+
+    .why {
+        flex-direction: column-reverse;
     }
 
 }
