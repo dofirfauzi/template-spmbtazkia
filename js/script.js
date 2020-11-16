@@ -55,11 +55,39 @@ $('.partners-slider').owlCarousel({
     }
 })
 
+$('.testimoni').owlCarousel({
+    loop: true,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: true,
+    items: 1,
+})
 
-//Get the button
+$('.profil-alumni').owlCarousel({
+    loop: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: false,
+    items: 1,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 4
+        }
+    }
+})
+
+//Ambil tombol scroll up
 var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// munculkan tombol scroll up ketika user scroll 20px dari top
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -70,7 +98,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// scroll ke atas ketika tombol scroll up di click
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;

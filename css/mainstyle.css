@@ -672,8 +672,51 @@ footer .contact-info i {
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.matkul li {
+.matkul .list-matkul {
     border: none;
+    color: #13263D;
+    background-color: #FFF;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.matkul .list-matkul:hover {
+    background-color: #FFF9F2;
+}
+
+.matkul .list-matkul h5 {
+    margin: 0px;
+}
+
+.matkul .list-matkul i {
+    margin-right: 10px;
+    color: #F47920;
+}
+
+.testimoni-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.testimoni img {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profil-alumni .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 15px;
+}
+
+.profil-alumni .card p {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -5px;
 }
 
 /* end lendingpage MBS */
@@ -765,24 +808,26 @@ footer .contact-info i {
         flex-direction: column-reverse;
     }
 
-}
-
-/* tablet version style */
-@media (max-width: 991.98px) {
-    .program img {
-        margin-bottom: 25px;
+    .matkul {
+        padding: 20px;
     }
 
-    .jalur-test img {
-        margin-top: 40px;
-    }
+    /* tablet version style */
+    @media (max-width: 991.98px) {
+        .program img {
+            margin-bottom: 25px;
+        }
 
-    .address {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+        .jalur-test img {
+            margin-top: 40px;
+        }
 
-    .form-area {
-        padding: 25px;
+        .address {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .form-area {
+            padding: 25px;
+        }
     }
-}
