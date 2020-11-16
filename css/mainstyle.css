@@ -811,23 +811,24 @@ footer .contact-info i {
     .matkul {
         padding: 20px;
     }
+}
 
-    /* tablet version style */
-    @media (max-width: 991.98px) {
-        .program img {
-            margin-bottom: 25px;
-        }
-
-        .jalur-test img {
-            margin-top: 40px;
-        }
-
-        .address {
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-
-        .form-area {
-            padding: 25px;
-        }
+/* tablet version style */
+@media (max-width: 991.98px) {
+    .program img {
+        margin-bottom: 25px;
     }
+
+    .jalur-test img {
+        margin-top: 40px;
+    }
+
+    .address {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .form-area {
+        padding: 25px;
+    }
+}
