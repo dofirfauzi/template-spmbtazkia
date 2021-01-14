@@ -277,6 +277,20 @@ body {
     margin-bottom: -1px;
 }
 
+.modal-body-faculty ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.modal-body-faculty ul li a:hover {
+    color: #F47920;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #FFF9F2;
+}
+
 /* end modal faculty */
 /* end faculty section */
 /* test section */
