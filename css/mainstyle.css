@@ -598,6 +598,9 @@ footer .contact-info i {
 .jumbotron {
     background: linear-gradient(128.23deg, #023E88 30.51%, #0256BD 77.84%);
     color: white;
+}
+
+.header-smartTest {
     min-height: 590px;
 }
 
@@ -734,6 +737,43 @@ footer .contact-info i {
 }
 
 /* end lendingpage MBS */
+
+/* panduan pembayaran */
+.panduan-pembayaran {
+    margin-top: 70px;
+}
+
+.panduan-pembayaran .nav .nav-item a {
+    color: black;
+}
+
+.panduan-pembayaran ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+.panduan-pembayaran ol li {
+    counter-increment: my-awesome-counter;
+    margin-bottom: 10px;
+}
+
+.panduan-pembayaran ol li::before {
+    content: counter(my-awesome-counter);
+    background: #F47920;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 18px;
+}
+
+/* end panduan pembayaran */
+
 /* btn scroll to top */
 #myBtn {
     display: none;
